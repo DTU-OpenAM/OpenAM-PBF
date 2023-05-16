@@ -2,7 +2,7 @@
 <h1 align="center">The DTU Open Additive Initiative, Laser-Based Powder Bed Fusion Repo</h1>
 
 # OpenAM
-<p align="right"><img src="misc/git/DTU_logo.png" height="50" alt="DTU logo" /></p>
+<p align="right"><img src="misc/git/DTU_Logo.png" height="50" alt="DTU logo" /></p>
 The DTU Open AM PBF repo for source code, CAD etc. The project was undertaken across bla bla bla years and we are excellent bla bla
 
 All files in this repo is published under the CERN-OHL-P v2 license.
