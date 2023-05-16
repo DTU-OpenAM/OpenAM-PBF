@@ -1,7 +1,7 @@
 CERN Open Hardware Licence Version 2 - Permissive
 
 
-Preamble
+# Preamble
 
 CERN has developed this licence to promote collaboration among
 hardware designers and to provide a legal tool which supports the
@@ -19,44 +19,44 @@ Licensor or their designs nor does it imply any involvement by CERN in
 their development.
 
 
-1 Definitions
+# 1 Definitions
 
-  1.1 'Licence' means this CERN-OHL-P.
+   1.1 'Licence' means this CERN-OHL-P.
 
-  1.2 'Source' means information such as design materials or digital
+   1.2 'Source' means information such as design materials or digital
       code which can be applied to Make or test a Product or to
       prepare a Product for use, Conveyance or sale, regardless of its
       medium or how it is expressed. It may include Notices.
 
-  1.3 'Covered Source' means Source that is explicitly made available
+   1.3 'Covered Source' means Source that is explicitly made available
       under this Licence.
 
-  1.4 'Product' means any device, component, work or physical object,
+   1.4 'Product' means any device, component, work or physical object,
       whether in finished or intermediate form, arising from the use,
       application or processing of Covered Source.
 
-  1.5 'Make' means to create or configure something, whether by
+   1.5 'Make' means to create or configure something, whether by
       manufacture, assembly, compiling, loading or applying Covered
       Source or another Product or otherwise.
 
-  1.6 'Notice' means copyright, acknowledgement and trademark notices,
+   1.6 'Notice' means copyright, acknowledgement and trademark notices,
       references to the location of any Notices, modification notices
       (subsection 3.3(b)) and all notices that refer to this Licence
       and to the disclaimer of warranties that are included in the
       Covered Source.
 
-  1.7 'Licensee' or 'You' means any person exercising rights under
+   1.7 'Licensee' or 'You' means any person exercising rights under
       this Licence.
 
-  1.8 'Licensor' means a person who creates Source or modifies Covered
+   1.8 'Licensor' means a person who creates Source or modifies Covered
       Source and subsequently Conveys the resulting Covered Source
       under the terms and conditions of this Licence. A person may be
       a Licensee and a Licensor at the same time.
 
-  1.9 'Convey' means to communicate to the public or distribute.
+   1.9 'Convey' means to communicate to the public or distribute.
 
 
-2 Applicability
+# 2 Applicability
 
   2.1 This Licence governs the use, copying, modification, Conveying
       of Covered Source and Products, and the Making of Products. By
@@ -73,7 +73,7 @@ their development.
       or any other similar right.
 
 
-3 Copying, Modifying and Conveying Covered Source
+# 3 Copying, Modifying and Conveying Covered Source
 
   3.1 You may copy and Convey verbatim copies of Covered Source, in
       any medium, provided You retain all Notices.
@@ -103,14 +103,14 @@ their development.
           Convey Covered Source or modified Covered Source.
 
 
-4 Making and Conveying Products
+# 4 Making and Conveying Products
 
 You may Make Products, and/or Convey them, provided that You ensure
 that the recipient of the Product has access to any Notices applicable
 to the Product.
 
 
-5 DISCLAIMER AND LIABILITY
+# 5 DISCLAIMER AND LIABILITY
 
   5.1 DISCLAIMER OF WARRANTY -- The Covered Source and any Products
       are provided 'as is' and any express or implied warranties,
@@ -143,7 +143,7 @@ to the Product.
       in relation to such use.
 
 
-6 Patents
+# 6 Patents
 
   6.1 Subject to the terms and conditions of this Licence, each
       Licensor hereby grants to You a perpetual, worldwide,
@@ -165,7 +165,7 @@ to the Product.
       terminate as of the date such process is initiated.
 
 
-7 General
+# 7 General
 
   7.1 If any provisions of this Licence are or subsequently become
       invalid or unenforceable for any reason, the remaining
