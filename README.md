@@ -1,4 +1,4 @@
-<p align="center"><img src="misc/git/OpenAMini.png" height="250" alt="Open Additive Initiative logo" /></p>
+<p align="center"><img src="misc/git/OpenAMini.png" height="200" alt="Open Additive Initiative logo" /></p>
 <h1 align="center">The DTU Open Additive Initiative, Laser-Based Powder Bed Fusion Repo</h1>
 
 # OpenAM
