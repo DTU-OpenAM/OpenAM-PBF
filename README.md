@@ -9,6 +9,18 @@ All files in this repo is published under the CERN-OHL-P v2 license.
 
 ## Physical System
 
+<p align="center"><img src="misc/git/LOOP_Nikong.jpg" height="300" alt="Front view of the system" /></p>
+<h3 align="center">Front view of the system</h3>
+
+<p align="center"><img src="misc/git/Robust04.png" height="200" alt="Operating principles" /></p>
+<h3 align="center">Design concepts of the system</h3>
+
+
+<p align="center"><img src="misc/git/ExplodedViews_2.png" height="300" alt="Main mechanical systems" /></p>
+<h3 align="center">Main mechanical systems</h3>
+
+
+
 ### CAD
 Each sub-system has its own folder with a .zip containing .step-files and technical drawings in .pdf.
 The technical drawings will be a mix of drawings for manufacture and assembly instructions.
