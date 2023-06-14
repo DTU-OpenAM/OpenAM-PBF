@@ -16,6 +16,8 @@ All files in this repo is published under the CERN-OHL-P v2 license.
 <p align="center"><img src="misc/git/Robust04.png" height="300" alt="Operating principles" /></p>
 <h3 align="center">Design concepts of the system</h3>
 
+<p align="center"><img src="misc/git/architecture07.PNG" height="300" alt="Formal structure" /></p>
+<h3 align="center">The formal structure of the system showing critical elements (or element clusters)</h3>
 
 <p align="center"><img src="misc/git/OPM_Edit_2.png" height="600" alt="Object Process Methodology" /></p>
 <h3 align="center">Object Process Methodology to visualize the system archietecture</h3>
