@@ -18,6 +18,26 @@ Feel free to contact me or the team (see the bottom of the readme) if you have q
 Click the image to be taken to Youtube for a video of the system running.
 
 
+## Safety
+
+Thorough consideration is needed before working with metal L-PBF, whether you buy or build. This system is an experimental setup meant for R&D, and its safety aspects have not been approved by a certified official. Proceed with caution at your own risk.
+
+**Safety Sub-System:** The safety sub-system controls the activation of motors and lasers, ensuring they operate only under safe conditions. This includes emergency stops (E-stops) that physically break the connection using a safety contactor, disabling the laser trigger signal, and the motor drivers.
+
+**Interlock Switches:** Interlock switches on the enclosure doors ensure the system is fully sealed before the laser can be activated. The laser can only fire when the doors are closed, no E-stops are pressed, the Reset E-stop button is triggered, and the Activate laser button is enabled.
+
+**Safety Programmable Logic Controller (PLC):** The system employs an ABB Pluto D20 safety PLC as its "brain." This, along with Adam and Eva units from the EDEN series from ABB to monitor the doors and a Smile 41 button interface for emergency stop and reset controls, constitutes the core of the safety system.
+
+<p align="center"><img src="misc/git/SafetyOPM.png" height="300" alt="Safety OPM" /></p>
+<h3 align="center">Safety OPM</h3>
+
+European Union Directives: In the EU, the Machinery Directive 2006/42/EC is relevant for ensuring safety in machinery like the L-PBF system. It provides the regulatory basis for the harmonization of the essential health and safety requirements for machinery at the EU level.
+
+OSHA Directives: In the United States, the Occupational Safety and Health Administration (OSHA) has regulations that would apply to the operation of a laser-based system. This includes standards for personal protective equipment (29 CFR 1910.132), general requirements for all machines (29 CFR 1910.212), and specific regulations for welding, cutting, and brazing (29 CFR 1910.252).
+
+The open-source Laser Powder Bed Fusion system incorporates a comprehensive safety subsystem, including emergency stops, interlock switches, and a safety PLC to ensure safe operation. Compliance with relevant EU directives and OSHA regulations is crucial for the lawful and safe operation of such advanced manufacturing systems​​.
+
+
 ## The Project and Git Structure
 
 The open-source Laser Powder Bed Fusion (L-PBF) project embodies core Systems Engineering principles to enhance its design and functionality, significantly benefiting the research and manufacturing communities. By employing a structured approach, the project manages complexities and fosters adaptability, which is crucial for evolving user requirements and technology.
