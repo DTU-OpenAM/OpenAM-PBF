@@ -17,20 +17,58 @@ Feel free to contact me or the team (see the bottom of the readme) if you have q
 
 ## The Project and Git Structure
 
+The open-source Laser Powder Bed Fusion (L-PBF) project embodies core Systems Engineering principles to enhance its design and functionality, significantly benefiting the research and manufacturing communities. By employing a structured approach, the project manages complexities and fosters adaptability, which is crucial for evolving user requirements and technology.
+
+**Systems Engineering Principles:**
+Iterative Design Process: Adhering to an iterative design process, the project transitions from general concepts to detailed designs, ensuring a comprehensive development lifecycle. It employs the Vee model, which guides concept exploration, requirements definition, and system validation, ensuring a robust and reliable open-source system.
+
+Modularity and Open Control: The project employs modularity, where system elements perform specific functions. This approach enhances adaptability, allowing easy upgrades, maintenance, and repairs. It also integrates black-box components with robust control protocols, reducing complexity and ensuring system flexibility.
+
+### Vee-model: 
+This provided a structured framework for the project's lifecycle, guiding it from concept exploration through to system validation.
+
+<p align="center"><img src="misc/git/V-model_4.png" height="300" alt="The Vee-model used in the project" /></p>
+<h3 align="center">The Vee-model used in the project</h3>
+
+### Object Process Methodology (OPM): 
+This tool was used for decomposing complexity, combining classes of information, and creating diagrams for specific use cases. It helped in visualizing and managing the project's development.
+
+### Design Structure Matrix (DSM): 
+This facilitated the analysis of internal interfaces and provoked a reevaluation of the internal formal structure of the system. It was instrumental in designing a system with modularity and open architecture.
+
+### Relational Database Method: 
+Instead of using Systems Modeling Language (SysML), which was considered, a relational database method was employed to manage information about every facet of every element in the system. Airtable was used, which will also be shared. This will function as the Bill of Materials.
+
+These tools collectively supported the project's goals of creating an adaptable, robust, and user-friendly open-source system while managing the complexities inherent in such an ambitious project​​.
+
+## Physical and Digital
+
+The repo deals with the physical aspects, whereas the controller repo and the post-processer repo deal with the digital aspects. The controller is very much still under development, and a major redesign is underway. However, with certain limitations, the controller is very capable.
+
+<p align="center"><img src="misc/git/UserOPM_edit_v3.png" height="500" alt="OPM of the system context" /></p>
+<h3 align="center">OPM of the system context</h3>
+
+The majority of the readme to follow considers the physical aspects of the system.
 
 
 ## Physical System (Version 1)
 
+The system can be seen below. It features a 250mm x 150mm build volume, a 300W 1080nm laser, and a multi-material powder system. It is self-contained and has a closed-loop gas flow cross flow. The system uses a standard windows laptop running custom and standard software.
+
 <p align="center"><img src="misc/git/LOOP_Nikon.jpg" height="500" alt="Front view of the system" /></p>
 <h3 align="center">Front view of the system</h3>
 
-<p align="center"><img src="misc/git/Robust04.png" height="300" alt="Operating principles" /></p>
+The system uses standard operating principles as employed by many other systems.
+
+<p align="center"><img src="misc/git/Robust04_v3.png" height="300" alt="Operating principles" /></p>
 <h3 align="center">Design concepts of the system</h3>
+
+The formal structure of the system is divided as below:
 
 <p align="center"><img src="misc/git/architecture07.PNG" height="300" alt="Formal structure" /></p>
 <h3 align="center">The formal structure of the system showing critical elements (or element clusters)</h3>
 
-<p align="center"><img src="misc/git/OPM_Edit_2.png" height="600" alt="Object Process Methodology" /></p>
+<p align="center"><img src="misc/git/OPM_Edit_3.png" height="600" alt="Object Process Methodology" /></p>
 <h3 align="center">Object Process Methodology to visualize the system archietecture</h3>
 
 
