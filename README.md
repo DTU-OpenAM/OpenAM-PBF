@@ -3,9 +3,16 @@
 
 # OpenAM
 <p align="center"><img src="misc/git/DTU_Logo.png" height="100" alt="DTU logo" /></p>
-The DTU Open AM PBF repo for source code, CAD etc. The project was undertaken across bla bla bla years and we are excellent bla bla
+_Update 3rd of January 2024._
 
-All files in this repo is published under the CERN-OHL-P v2 license.
+The DTU Open AM PBF repo for everything related to machine building (CAD, schematics, BOM, etc.). Everything is a work in progress and will be published as soon as sufficiently detailed documentation is produced. Some changes were made to the system, resulting in versions 1 and 2. Version 2 will be the actual release.
+
+**Project Impetus:** The world of Laser Powder-bed Fusion (L-PBF) has been tightly held within the clutches of proprietary practices, limiting innovation and knowledge sharing. This project was born out of a desire to challenge this exclusivity by creating an open-source infrastructure for L-PBF. The aim was to democratize access to this advanced manufacturing process, stimulate innovation, and foster cross-disciplinary collaboration. Despite the complex and professional nature of L-PBF, which involves dealing with high-power lasers, explosive metal powders, and specialized equipment, the project's commitment to open-source principles remained unwavering.
+
+**Project Results:** The project successfully designed, built, verified and validated an open-source metal L-PBF system. The resulting machine is user-friendly, fully open, and performs comparably with commercial L-PBF systems. The entire design and detailed documentation are published under the CERN-OHL-P (permissive) v2 Open Source Hardware license and are accessible for public adaptation and improvement. The project contributes to a broader understanding and accessibility of additive manufacturing technology, paving the way for future enhancements and a community-driven approach to innovation.
+
+Find out more and contribute to the evolution of this revolutionary project on GitHub. Join us in advancing the field of additive manufacturing!
+
 
 
 ## Physical System
