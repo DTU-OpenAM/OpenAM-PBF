@@ -14,6 +14,9 @@ The DTU Open AM PBF repo for everything related to machine building (CAD, schema
 Find out more and contribute to the evolution of this revolutionary project on GitHub. Join us in advancing the field of additive manufacturing!
 Feel free to contact me or the team (see the bottom of the readme) if you have questions or want to adopt the system - or parts of it.
 
+[![Video of system](https://img.youtube.com/vi/1JqzYOu9leE/0.jpg)](https://www.youtube.com/watch?v=1JqzYOu9leE "Video of process")
+Click the image to be taken to Youtube for a video of the system running.
+
 
 ## The Project and Git Structure
 
