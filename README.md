@@ -12,10 +12,14 @@ The DTU Open AM PBF repo for everything related to machine building (CAD, schema
 **Project Results:** The project successfully designed, built, verified and validated an open-source metal L-PBF system. The resulting machine is user-friendly, fully open, and performs comparably with commercial L-PBF systems. The entire design and detailed documentation are published under the CERN-OHL-P (permissive) v2 Open Source Hardware license and are accessible for public adaptation and improvement. The project contributes to a broader understanding and accessibility of additive manufacturing technology, paving the way for future enhancements and a community-driven approach to innovation.
 
 Find out more and contribute to the evolution of this revolutionary project on GitHub. Join us in advancing the field of additive manufacturing!
+Feel free to contact me or the team (see the bottom of the readme) if you have questions or want to adopt the system - or parts of it.
+
+
+## The Project and Git Structure
 
 
 
-## Physical System
+## Physical System (Version 1)
 
 <p align="center"><img src="misc/git/LOOP_Nikon.jpg" height="500" alt="Front view of the system" /></p>
 <h3 align="center">Front view of the system</h3>
