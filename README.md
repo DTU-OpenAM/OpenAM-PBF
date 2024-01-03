@@ -20,7 +20,7 @@ Click the image to be taken to Youtube for a video of the system running.
 
 ## Safety
 
-Thorough consideration is needed before working with metal L-PBF, whether you buy or build. This system is an experimental setup meant for R&D, and its safety aspects have not been approved by a certified official. Proceed with caution at your own risk.
+Thorough consideration is needed before working with metal L-PBF, whether you buy or build. This system is an experimental setup meant for R&D, and a certified official has not approved its safety aspects. Proceed with caution at your own risk.
 
 **Safety Sub-System:** The safety sub-system controls the activation of motors and lasers, ensuring they operate only under safe conditions. This includes emergency stops (E-stops) that physically break the connection using a safety contactor, disabling the laser trigger signal, and the motor drivers.
 
@@ -28,7 +28,7 @@ Thorough consideration is needed before working with metal L-PBF, whether you bu
 
 **Safety Programmable Logic Controller (PLC):** The system employs an ABB Pluto D20 safety PLC as its "brain." This, along with Adam and Eva units from the EDEN series from ABB to monitor the doors and a Smile 41 button interface for emergency stop and reset controls, constitutes the core of the safety system.
 
-<p align="center"><img src="misc/git/SafetyOPM.png" height="300" alt="Safety OPM" /></p>
+<p align="center"><img src="misc/git/SafetyOPM.png" height="400" alt="Safety OPM" /></p>
 <h3 align="center">Safety OPM</h3>
 
 European Union Directives: In the EU, the Machinery Directive 2006/42/EC is relevant for ensuring safety in machinery like the L-PBF system. It provides the regulatory basis for the harmonization of the essential health and safety requirements for machinery at the EU level.
@@ -88,8 +88,10 @@ The system uses standard operating principles as employed by many other systems.
 
 The formal structure of the system is divided as below:
 
-<p align="center"><img src="misc/git/architecture07.PNG" height="300" alt="Formal structure" /></p>
+<p align="center"><img src="misc/git/architecture07.PNG" height="400" alt="Formal structure" /></p>
 <h3 align="center">The formal structure of the system showing critical elements (or element clusters)</h3>
+
+The main architecture is seen below:
 
 <p align="center"><img src="misc/git/OPM_Edit_3.png" height="600" alt="Object Process Methodology" /></p>
 <h3 align="center">Object Process Methodology to visualize the system archietecture</h3>
@@ -98,6 +100,8 @@ The formal structure of the system is divided as below:
 ### CAD
 Each sub-system has its own folder with a .zip containing .step-files and technical drawings in .pdf.
 The technical drawings will be a mix of drawings for manufacture and assembly instructions.
+
+The full original Solidworks assembly will also be present.
 
 <p align="center"><img src="misc/git/ExplodedViews_2.png" height="500" alt="Main mechanical systems" /></p>
 <h3 align="center">Main mechanical systems</h3>
@@ -115,18 +119,16 @@ Link to the airtable document is in the BOM readme.
 <h3 align="center">Cost distribution</h3>
 
 
+# Digital system
 
+The digital side of the system is under rapid development. The current controller is capable of printing within certain limitations.
 
 ## Controller
 
 <p align="center"><img src="misc/git/GLAMS-OPM.PNG" height="500" alt="GLAMSOPM" /></p>
 <h3 align="center">GLAMS OPM</h3>
 
-### PCB
-
-
-### Firmware
-The Firmware folder contain the code for the system controller.
+The controller repo will contain PCB design and firmware.
 
 
 ## Software
@@ -139,14 +141,17 @@ The Firmware folder contain the code for the system controller.
 <p align="center"><img src="misc/git/gcodesender.PNG" height="500" alt="gcodeSender" /></p>
 <h3 align="center">gcodeSender</h3>
 
+### Netfabb
+
+See the Netfabb repo for information regarding the Netfabb post processor etc. This is the recommended approach currently.
 
 
-## Applications
+## Samples
 
 <p align="center"><img src="misc/git/PrintOverview.png" height="500" alt="Manufactured samples" /></p>
 <h3 align="center">Manufactured samples</h3>
 
-/Magnus
+/Magnus Bolt, mbokj@dtu.dk
 
 
 
